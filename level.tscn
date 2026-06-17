@@ -5,7 +5,6 @@
 [ext_resource type="PackedScene" uid="uid://cvr0tbikqh6en" path="res://player.tscn" id="2_vonw3"]
 [ext_resource type="PackedScene" uid="uid://7mqmwcxa1vlj" path="res://ui.tscn" id="3_f2txt"]
 [ext_resource type="PackedScene" uid="uid://rpt2eff27jhs" path="res://ball.tscn" id="3_oi3di"]
-[ext_resource type="Script" uid="uid://w8ld8o1puv7s" path="res://ui.gd" id="4_1ainy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_oi3di"]
 size = Vector2(1152, 36)
@@ -40,7 +39,6 @@ offset_bottom = 75.0
 color = Color(0.83544326, 0.2886641, 0.40426388, 1)
 
 [node name="UI" parent="." unique_id=109453802 instance=ExtResource("3_f2txt")]
-script = ExtResource("4_1ainy")
 
 [node name="player1" parent="." unique_id=2059052932 instance=ExtResource("2_vonw3")]
 position = Vector2(100, 286)
